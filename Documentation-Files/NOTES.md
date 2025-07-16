@@ -1,0 +1,2 @@
+- [README.md](../README.md)
+- to check any dependencies are install or not `npm package-name -v`

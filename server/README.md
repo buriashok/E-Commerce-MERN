@@ -1,0 +1,4 @@
+- [Root README file](../README.md)
+- root file [server.js](server.js)
+- `npm init -y`
+- `npm install bcryptjs cloudinary cookie-parser cors dotenv multer jsonwebtoken mongoose nodemon`

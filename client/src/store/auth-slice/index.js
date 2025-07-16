@@ -1,22 +1,20 @@
 // const { createSlice } = require("@reduxjs/toolkit"); // old model
 
-import {createSlice} from '@reduxjs/toolkit'; // new way to import packages...
+import { createSlice } from "@reduxjs/toolkit"; // new way to import packages...
 
 const initialState = {
-    isAuthenticated : false,
-    isLoading : false,
-    user: null
+  isAuthenticated: false,
+  isLoading: false,
+  user: null,
 };
 
 const authSlice = createSlice({
-    name: 'auth',
-    initialState,
-    reducers: {
-        setUser: (state, action) => {
-
-        }
-    }
+  name: "auth",
+  initialState,
+  reducers: {
+    setUser: (state, action) => {},
+  },
 });
 
-export const {setUser} = authSlice.actions;
+export const { setUser } = authSlice.actions;
 export default authSlice.reducer;
