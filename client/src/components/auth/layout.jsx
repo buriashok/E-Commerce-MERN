@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import React from "react";
 function AuthLayout() {
   return (
     <div className="flex min-h-screen w-full">
